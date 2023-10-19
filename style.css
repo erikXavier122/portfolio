@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lora:ital@1&family=Oswald:wght@300;600&display=swap');
+
+
+
+body{
+    margin: 0 !important;
+}
+
+
+#navbar{
+    background-color: #ffffff;
+    height: 7vh;
+    position: sticky;
+    top: 0%;
+}
+
+
+#navbar > button{
+    border: none;
+    background-color: transparent;
+    color: #4353e1;
+    float: right;
+    margin: 15px 30px;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+#navbar > button:hover{
+    text-decoration: underline;
+    color: #9bb2fd;
+}
+
+#page{
+    background-color: #4353e1;
+    height: 93vh;
+    width: 60%;
+    flex-direction: column;
+    float: left;
+}
+
+#page > h1{
+    font-family: 'sans-serif';
+    width: 50vw;
+    height: 10vh;   
+    margin: 15vw 0px 0px 10vh;
+    color: #e5e4e4;
+    font-size: 75px;
+}
+
+#page > h2{
+    font-family: 'sans-serif';
+    margin: 0vw 0px 0px 10vh;
+    color: #332422;
+    width: 50vw;
+    height: 10vh;
+    font-size: 55px;
+}
+
+#page > p{
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0vw 0px 0px 10vh;
+    border: 0 !important;
+    color: #e5e4e4;
+    height: 10vh;
+    width: 34vw;
+    font-size: 30px;
+}
+
+#right{
+    background-color: #e5e4e4;
+    height: 93vh;
+    width: 40%;
+    float: right;
+}
+
+.borda{
+    width: 15vw;
+    height: 35vh;
+    border: 4px solid #ffffff;
+    background-color: transparent;
+    margin-left: -80px;
+    margin-top: 16vw;
+}
+
+.foto{
+    width: 15vw;
+    height: 35vh;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+
+#pageSobre{
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background-color: #4353e1;
+}
+
+#pageSobre > h1{
+    width: 20vw;
+    height: 10vh;
+    color: #332422;
+}
