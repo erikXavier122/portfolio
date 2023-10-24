@@ -1,24 +1,24 @@
 const divBorda = document.createElement('div')
 divBorda.id = "divBorda"
 
-rightGetElement.appendChild(divBorda)
+rightGetById.appendChild(divBorda)
 
-const fundoGetElement = document.getElementById('divBorda')
+const fundoGetById = document.getElementById('divBorda')
 
 const borda = document .createElement("button")
 borda.className = "borda"
 borda.id = "borda"
 
-fundoGetElement.appendChild(borda)
+fundoGetById.appendChild(borda)
 
-const bordaGetElement = document.getElementById('borda')
+const bordaGetById = document.getElementById('borda')
 
 const foto = document.createElement("img")
 foto.className = "foto"
 foto.id = "foto"
 foto.src = "./assets/principal-page/2c83ed2e-7526-40bb-bf76-a083b4824df0.png"
 
-bordaGetElement.appendChild(foto)
+bordaGetById.appendChild(foto)
 
 
 // const buttonSobre = document.createElement("button")

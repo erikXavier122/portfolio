@@ -11,9 +11,9 @@ paragrafoUm.className = "paragrafoUm"
 paragrafoUm.innerText = "É um prezer compartilhar as tecnologias que eu uso em meus projetos"
 
 
-pageGetElement.appendChild(h1Titulo)
-pageGetElement.appendChild(subTitulo)
-pageGetElement.appendChild(paragrafoUm)
+pageGetById.appendChild(h1Titulo)
+pageGetById.appendChild(subTitulo)
+pageGetById.appendChild(paragrafoUm)
 
 // const buttonSobre = document.createElement("button")
 // buttonSobre.className = "sobre"

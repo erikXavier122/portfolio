@@ -1,4 +1,4 @@
-// variavel Root
+// Root
 const divRoot = document.getElementById("root")
 
 // navbar
@@ -15,7 +15,7 @@ page.id = "page"
 
 divRoot.appendChild(page)
 
-const pageGetElement = document.getElementById('page')
+const pageGetById = document.getElementById('page')
 
 // right 
 const right = document.createElement('div')
@@ -23,7 +23,7 @@ right.id = "right"
 
 divRoot.appendChild(right)
 
-const rightGetElement = document.getElementById('right')
+const rightGetById = document.getElementById('right')
 
 // sobre
 const pageSobre = document.createElement('div')
@@ -31,4 +31,20 @@ pageSobre.id = "pageSobre"
 
 divRoot.appendChild(pageSobre)
 
-const pageSobreGetElement = document.getElementById('pageSobre')
+const sobreGetById = document.getElementById('pageSobre')
+
+// tecnologias
+const pageTecnologias = document.createElement('div')
+pageTecnologias.id = "pageTecnologias"
+
+divRoot.appendChild(pageTecnologias)
+
+const pageTecnologiasGetId = document.getElementById('pageTecnologias')
+
+// projetos
+const pageProjetos = document.createElement("div")
+pageProjetos.id = "pageProjetos"
+
+divRoot.appendChild(pageProjetos)
+
+const pageProjetosGetById = document.getElementById("pageProjetos")
