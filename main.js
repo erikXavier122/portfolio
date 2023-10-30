@@ -48,3 +48,11 @@ pageProjetos.id = "pageProjetos"
 divRoot.appendChild(pageProjetos)
 
 const pageProjetosGetById = document.getElementById("pageProjetos")
+
+// contatos
+const pageContatos = document.createElement("div")
+pageContatos.id = "pageContatos"
+
+divRoot.appendChild(pageContatos)
+
+const pageContatosGetById = document.getElementById("pageContatos")

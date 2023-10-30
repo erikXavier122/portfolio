@@ -1,12 +1,12 @@
-function createButtonsNavbar(nameClass,text){
-    const buttonNavbar = document.createElement('button')
-    buttonNavbar.className = nameClass
+function createAncorasNavbar(id,href,text){
+    const buttonNavbar = document.createElement('a')
+    buttonNavbar.id = id
+    buttonNavbar.href = href
     buttonNavbar.innerText = text
     navbarGetById.appendChild(buttonNavbar)
 }
 
-createButtonsNavbar("contato", "Contato")
-createButtonsNavbar("projetos", "Projetos")
-createButtonsNavbar("tecnologias", "Tecnologias")
-createButtonsNavbar("sobre", "Sobre")
-
+createAncorasNavbar("contato","#pageContatos", "Contato")
+createAncorasNavbar("projetos","#pageProjetos", "Projetos")
+createAncorasNavbar("tecnologias","#pageTecnologias", "Tecnologias")
+createAncorasNavbar("sobre","#pageSobre", "Sobre")
