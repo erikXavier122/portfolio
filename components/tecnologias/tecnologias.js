@@ -4,110 +4,33 @@ textTecnologias.innerText = "Tecnologias"
 
 pageTecnologiasGetId.appendChild(textTecnologias)
 
-const divImages = document.createElement("div")
-divImages.id = "divImages"
+const divTecnologias = document.createElement('div')
+divTecnologias.id = "divTecnologias"
+divTecnologias.className = "divTecnologias"
 
-pageTecnologiasGetId.appendChild(divImages)
+pageTecnologiasGetId.appendChild(divTecnologias)
 
-divImagesGetId = document.getElementById('divImages')
+const divTecnologiasGetById = document.getElementById("divTecnologias")
 
-const javaImg = document.createElement("img")
-javaImg.className = "javaImg"
-javaImg.id = "javaImg"
-javaImg.src = "./assets/principal-page/icons8-java-150.png"
+const srcBaseImages = "./assets/principal-page/"
 
-divImagesGetId.appendChild(javaImg)
-
-const javaImgGetById = document.getElementById('javaImg')
-
-const textJava = document.createElement('p')
-textJava.className = "textJava"
-textJava.innerText = "Java"
-
-javaImgGetById.appendChild(textJava)
-
-const springImg = document.createElement("img")
-springImg.className = "springImg"
-springImg.id = "springImg"
-springImg.src = "./assets/principal-page/icons8-spring-boot-150.png"
-
-divImagesGetId.appendChild(springImg)
-
-const dockerImg = document.createElement("img")
-dockerImg.className = "dockerImg"
-dockerImg.id = "dockerImg"
-dockerImg.src = "./assets/principal-page/icons8-docker-150.png"
-
-divImagesGetId.appendChild(dockerImg)
-
-const kubernetesImg = document.createElement("img")
-kubernetesImg.className = "kubernetesImg"
-kubernetesImg.id = "kubernetesImg"
-kubernetesImg.src = "./assets/principal-page/icons8-kubernetes-150.png"
-
-
-divImagesGetId.appendChild(kubernetesImg)
-
-
-const postgreImg = document.createElement("img")
-postgreImg.className = "postgreImg"
-postgreImg.id = "postgreImg"
-postgreImg.src = "./assets/principal-page/icons8-postgresql-150.png"
-
-divImagesGetId.appendChild(postgreImg)
-
-const javaScriptImg = document.createElement("img")
-javaScriptImg.className = "javaScriptImg"
-javaScriptImg.id = "javaScriptImg"
-javaScriptImg.src = "./assets/principal-page/icons8-javascript-150.png"
-
-divImagesGetId.appendChild(javaScriptImg)
-
-const awsImg = document.createElement("img")
-awsImg.className = "awsImg"
-awsImg.id = "awsImg"
-awsImg.src = "./assets/principal-page/icons8-amazon-web-services-150.png"
-
-divImagesGetId.appendChild(awsImg)
-
-const azureImg = document.createElement("img")
-azureImg.className = "azureImg"
-azureImg.id = "azureImg"
-azureImg.src = "./assets/principal-page/icons8-azure-150.png"
-
-divImagesGetId.appendChild(azureImg)
-
-const postmanImg = document.createElement("img")
-postmanImg.className = "postmanImg"
-postmanImg.id = "postmanImg"
-postmanImg.src = "./assets/principal-page/icons8-postgresql-150.png"
-
-divImagesGetId.appendChild(postmanImg)
-
-const swaggerImg = document.createElement("img")
-swaggerImg.className = "swaggerImg"
-swaggerImg.id = "swaggerImg"
-swaggerImg.src = "./assets/principal-page/swagger-icon-256x256-5u6jd5q7.png"
-
-divImagesGetId.appendChild(swaggerImg)
-
-const htmlImg = document.createElement("img")
-htmlImg.className = "htmlImg"
-htmlImg.id = "htmlImg"
-htmlImg.src = "./assets/principal-page/icons8-html-5-150.png"
-
-divImagesGetId.appendChild(htmlImg)
-
-const cssImg = document.createElement("img")
-cssImg.className = "cssImg"
-cssImg.id = "cssImg"
-cssImg.src = "./assets/principal-page/icons8-css3-150.png"
-
-divImagesGetId.appendChild(cssImg)
-
-const mysqlImg = document.createElement("img")
-mysqlImg.className = "mysqlImg"
-mysqlImg.id = "mysqlImg"
-mysqlImg.src = "./assets/principal-page/icons8-mysql-logo-150.png"
-
-divImagesGetId.appendChild(mysqlImg)
+function createIconTecnologias(id,src,idDestinoIcon){
+    const iconTecnologias = document.createElement('img')
+    iconTecnologias.id = id
+    iconTecnologias.src = src
+    const iconTecnologiasGetById = document.getElementById(idDestinoIcon)
+    divTecnologiasGetById.appendChild(iconTecnologias)
+}
+createIconTecnologias("iconJava",srcBaseImages+"icons8-java-150.png","iconJava")
+createIconTecnologias("iconSpring",srcBaseImages+"icons8-spring-boot-150.png","iconSpring")
+createIconTecnologias("iconDocker",srcBaseImages+"icons8-docker-150.png","iconDocker")
+createIconTecnologias("iconKubernetes",srcBaseImages+"icons8-kubernetes-150.png","iconKubernetes")
+createIconTecnologias("iconPostgres",srcBaseImages+"icons8-postgresql-150.png","iconPostgres")
+createIconTecnologias("iconMysqlAws",srcBaseImages+"icons8-mysql-logo-150.png","iconMysqlAws")
+createIconTecnologias("iconAws",srcBaseImages+"icons8-amazon-web-services-150.png","iconAws")
+createIconTecnologias("iconAzure",srcBaseImages+"icons8-azure-150.png","iconAzure")
+createIconTecnologias("iconPostman",srcBaseImages+"free-postman-3628404-3032239.png","iconPostman")
+createIconTecnologias("iconSwagger",srcBaseImages+"swagger-icon-256x256-5u6jd5q7.png","iconSwagger")
+createIconTecnologias("iconJavaScript",srcBaseImages+"icons8-javascript-150.png","iconJavaScript")
+createIconTecnologias("iconCss",srcBaseImages+"icons8-css3-150.png","iconCss")
+createIconTecnologias("iconHtml",srcBaseImages+"icons8-html-5-150.png","iconHtml")
