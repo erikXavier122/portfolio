@@ -132,7 +132,7 @@ btnPortfolio.addEventListener('click', fctPortfolio);
 btnPicpay.addEventListener('click', fctPicpay);
 
 function fctUsuarios(){
-    window.location.assign("https://github.com/erikXavier122/Cadastro_de_usuarios");
+    window.location.assign("https://github.com/erikXavier122/spring-boot-api-cadastro");
 }
 
 function fctEmpresa(){
@@ -152,7 +152,7 @@ function fctLoginFront(){
 }
 
 function fctCadastroFront(){
-    window.location.assign("https://github.com/erikXavier122/spring-boot-api-cadastro");
+    window.location.assign("https://github.com/erikXavier122/Cadastro_de_usuarios");
 }
 
 function fctPortfolio(){
